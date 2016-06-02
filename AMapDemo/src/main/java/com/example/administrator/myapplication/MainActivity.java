@@ -15,7 +15,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * 定位成功的前提是先打包出签名的apk,而且用的签名文件和之前申请高德key的要一样
+ * 定位成功的前提是先打包出签名的apk,而且用的签名文件和之前申请高德key的要一样---
  */
 public class MainActivity extends AppCompatActivity implements AMapLocationListener {
 
