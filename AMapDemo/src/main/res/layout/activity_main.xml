@@ -9,14 +9,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.administrator.myapplication.MainActivity">
 
-    <!--<com.amap.api.maps2d.mapview-->
-        <!--android:id="@+id/map_view"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"></com.amap.api.maps2d.mapview>-->
     <TextView
         android:id="@+id/cityname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="13sp"
-        android:text="123"/>
+        android:text="123"
+        android:textSize="13sp" />
+
+    <com.amap.api.maps2d.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cityname"
+        android:layout_marginTop="20dp"></com.amap.api.maps2d.MapView>
 </RelativeLayout>
